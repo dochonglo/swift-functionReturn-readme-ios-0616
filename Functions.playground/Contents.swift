@@ -16,6 +16,7 @@ func getAge(name: String) -> Int {
 
 // Uncomment to see the error
 /*
+// We get an error from this because this function has no return.
 func badGetAge(name: String) -> Int {
     print("\(name) is 29")
 }
